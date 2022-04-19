@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'SquadaOne-Regular', monospace;
+    width: 100%;
+    color: #FAFAFA;
+    list-style-type:none;
+}
+@font-face{
+    font-family:SquadaOne-Regular;
+    src: url(./fonts/SquadaOne-Regular.ttf )
+}
+@font-face{
+    font-family:Tangerine-Bold;
+    src: url(./fonts/Tangerine-Bold.ttf)
+}
+header{
+   position: absolute;
+    Background-image: url(./images/header_images/churrasco_fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 860px;
+}
+.imagem_setaBaixo{
+    position:relative;
+    width: 60px;
+    left: 50%;
+    top: 100%;
+}
+/* TEXTO SUPERIOR DA PRIMEIRA PAGINA */
+#Logo{
+   display: inline;
+   background: linear-gradient(180deg, rgba(196, 196, 196, 0.28) 0%, rgba(196, 196, 196, 0) 100%);
+   padding: 16px;
+   border-radius:26px ;
+   font-size: 30px; 
+   margin-left: 15px;
+}
+#texMenu{  
+    position: absolute;
+    font-size: 25px;
+    display: inline;
+    text-align: end;
+    max-width: 93%;
+}
+#texto1{
+    display: inline;
+    margin: 15px;
+}
+/* CONTEINER DAS INFORMAÇOES DA PRIMEIRA PAGINA*/
+#conteinerElementos{
+    text-align: center; 
+    margin-top: 200px;
+}
+#componente1{
+    max-width: 363px; 
+}
+#texCurrascometor{
+    font-family:Tangerine-Bold;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 85px;
+    color: #F4CEAB;
+}
+#texAmorim{
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 58px;
+}
+/* conteiner para escolha do organizador*/
+#conteiner_escolhaOrganizador,h6{
+    padding-top: 20px;
+    max-width: 200px;
+    font-size: 23px;
+    
+   margin: auto;
+   margin-top: 15px;
+}
+h6{ 
+    background: linear-gradient(180deg, rgba(11, 226, 226, 0.28) 0%, rgba(196, 196, 196, 0) 100%);
+    max-width: 100px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+}
+h6:hover{
+    padding: 18px;
+}
+/* texto final da primeira pagina*/
+#textoPagina1{
+    position: absolute;
+    padding-top: 50px;
+    text-align: center;
+    top:85%;
+}
+
+
+
+
+
