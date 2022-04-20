@@ -52,7 +52,7 @@
 
     <main>
         <div class="conteinerCalculadora">
-        
+
             <div class="calculadora">
                 <h4>Entrada De Dados</h4>
                 <input type="number" name="Adultos" placeholder="Quantidade De Adultos" id="iconeAdulto">
@@ -60,58 +60,122 @@
                 <input type="number" name="Duração" placeholder="Duração Do Churrasco (h)" id="iconeDuracao">
                 <button type="submit">Enviar</button>
             </div>
-        
+
             <div id="conteiner_relatorioCompras">
                 <h4 id="textoRelatorio">RELATÓRIO DAS COMPRAS</h4>
-        
+
                 <div id="relatorio_cerveja">
-                    <p id="nomeCerveja">Cerveja</p>
+                    <p id="nome_bebidasCarne">Cerveja</p>
                     <img id="retangulo" src="./images/main_images/componente2.png"
                         alt="retangulo na vertical da cor azul escuro">
-                    <div class="resultadoCerveja">20 uni.</div><!-- espaço para colocar o resultado da quantidade de garrafas de cerveja -->
+                    <div class="resultadoCerveja">20 uni.</div>
+                    <!-- espaço para colocar o resultado da quantidade de garrafas de cerveja -->
                     <img id="icone" src="./images/icons/icons_cerveja.png" alt="icone de uma garrafa de Cerveja">
                 </div>
                 <div id="relatorio_carne">
-                    <p id="nomeCarne">Carne</p>
-                    <img id="retangulo" src="./images/main_images/componente3.png" alt="retangulo na vertical da cor vermelha">
-                    <div class="resultadoCarne">20 kg</div><!-- espaço para colocar o resultado da quantidade de carne -->
+                    <p id="nome_bebidasCarne">Carne</p>
+                    <img id="retangulo" src="./images/main_images/componente3.png"
+                        alt="retangulo na vertical da cor vermelha">
+                    <div class="resultadoCarne">20 kg</div>
+                    <!-- espaço para colocar o resultado da quantidade de carne -->
                     <img id="icone" src="./images/icons/icons_bife.png" alt="icone de um bife">
                 </div>
                 <div id="relatorio_refrigerante">
-                    <p id="nomeRefrigerante">Refrigerante</p>
+                    <p id="nome_bebidasCarne">Refrigerante</p>
                     <img id="retangulo" src="./images/main_images/componente4.png"
                         alt="retangulo na vertical da cor azul claro">
-                    <div class="resultadoRefrigerante">20 uni.</div><!-- espaço para colocar o resultado da quantidade de garrafas de refigerante -->
-                    <img id="icone" src="./images/icons/icons_refrigerante.png" alt="icone de uma garrafa de Refrigerante">
+                    <div class="resultadoRefrigerante">20 uni.</div>
+                    <!-- espaço para colocar o resultado da quantidade de garrafas de refigerante -->
+                    <img id="icone" src="./images/icons/icons_refrigerante.png"
+                        alt="icone de uma garrafa de Refrigerante">
                 </div>
             </div>
+        </div>
+
+        <div class="conteiner_precoCompas">
+            <h4 id="texto_precoPodutos">Preço Dos Produtos Por Categoria</h4>
+
+            <div>
+                <div class="relatorio_cerveja"><!-- OBS:reutilizar o codigo do id=relatorio_cerveja, torcando apenas para classe o conteiner -->
+                    <p class="nome_bebidasCarne">Cerveja</p>
+                    <img class="retangulo" src="./images/main_images/componente2.png" alt="retangulo na vertical da cor azul escuro">
+                    <div class="resultadoCerveja">
+                        20 uni.
+                        <!-- espaço para colocar o resultado da quantidade de garrafas de cerveja -->
+
+                    </div> 
+                </div>
+                    <table id="blocoInput_precoProdutosCerveja">
+
+                        <!-- COLOCAR OS INPUTS PARA QUANTIDADE,NOME E PREÇO DOS PRODUTOS -->
+
+                    </table>
+            </div>
+
+            <div>
+                <div class="relatorio_refrigerante"><!-- OBS:reutilizar o codigo do id=relatorio_cerveja, torcando apenas para classe o conteiner -->
+                    <p class="nome_bebidasCarne">Refrigerante</p>
+                    <img class="retangulo" src="./images/main_images/componente4.png" alt="retangulo na vertical da cor azul claro">
+                    <div class="resultadoRefrigerante">
+                        20 uni.
+                        <!-- espaço para colocar o resultado da quantidade de garrafas de refigerante -->
+                    </div>
+                </div>
+                <table id="blocoInput_precoProdutosRefrigerante">
+
+                    <!-- COLOCAR OS INPUTS PARA QUANTIDADE,NOME E PREÇO DOS PRODUTOS -->
+
+                </table>
+            </div>
+
+            <div>
+                <div class="relatorio_carne">
+                    <!-- OBS:reutilizar o codigo do id=relatorio_cerveja, torcando apenas para classe o conteiner -->
+                    <p class="nome_bebidasCarne">Carne</p>
+                    <img class="retangulo" src="./images/main_images/componente3.png" alt="retangulo na vertical da cor vermelha">
+                    <div class="resultadoCarne">
+                        20 kg
+                        <!-- espaço para colocar o resultado da quantidade de carne -->
+                    </div>
+                </div>
+                <table id="blocoInput_precoProdutosCarne">
+            
+                    <!-- COLOCAR OS INPUTS PARA QUANTIDADE,NOME E PREÇO DOS PRODUTOS -->
+                </table>
+            </div>
+            
+            <div id="conteiner_listaCompas_custoTotal">
+                <h4 id="nome_listaCompras_custoTotal">Lista De Compras e Custo Total</h4>
+                <!-- COLOCAR TODA A LISTA DE COMPRAS COM (quantidade total,nome, preço total)-->
+                <div id="conteinerValorTotal">   </div>
+            
+            </div>
+            
+            <img id="setaProximaPagina" src="./images/icons/icons_setaParaBaixo.png" alt="">
+        </div>
+
+        <div class="conteiner_planejarChurrasco">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
         </div>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
 
     </main>
 

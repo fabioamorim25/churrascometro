@@ -203,7 +203,7 @@ button{
     left: 86px;
     top: 992px;    
 }
-#nomeCerveja,#nomeCarne,#nomeRefrigerante{
+#nome_bebidasCarne{
     margin-left: 10px;
     margin-top: 1px;
     color: #9E9E9E;
@@ -227,4 +227,127 @@ button{
     left: 70%;
     top: 60%;
 }
-/*parte relacionada o preço dos produtos/
+/*parte relacionada o preço dos produtos*/
+.conteiner_precoCompas{
+    position: absolute;
+    background: linear-gradient(180deg, rgba(20, 8, 8, 0) 12.26%, rgba(0, 0, 0, 0.792813) 77.6%);
+    width: 1150px;
+    height: 1146px;
+    left: 260px;
+    top: 766px;  
+}
+#texto_precoPodutos{
+    width: 473px;
+    left: 110px;
+    top: 240px;
+}
+/*estilizar os valores recebidos no relatorio de compras para separar por produtos*/
+.relatorio_cerveja{
+    position: absolute;
+    background: linear-gradient(180deg, #350808 65.88%, rgba(196, 196, 196, 0) 100%);
+    border-radius: 7px;
+    width: 95px;
+    height: 150px;
+    left: 190px;
+    top: 329px;   
+}
+.retangulo{
+    position: absolute;
+    width: 4px;
+    height: 80px;
+    margin-left: 13px;
+    margin-top: 5px;
+}
+.nome_bebidasCarne{
+    margin-left: 12px;
+    margin-top: 10px;
+    color: #9E9E9E;
+}
+#blocoInput_precoProdutosCerveja{
+    position: absolute;
+    background: linear-gradient(180deg, #350808 95.31%, rgba(196, 196, 196, 0) 100%);
+    border-radius: 7px; 
+    width: 438px;
+    height: 150px;
+    left: 290px;
+    top: 329px;    
+}
+/*espaço para estilizar blocoInput_precoProdutos*/
+/*espaço para estilizar blocoInput_precoProdutos*/
+.relatorio_refrigerante{
+    position: absolute;
+    background: linear-gradient(180deg, #4A3BA7 71.69%, rgba(167, 59, 59, 0) 100%);
+    border-radius: 7px;
+    width: 95px;
+    height: 150px;
+    left: 350px;
+    top: 488px;    
+}
+#blocoInput_precoProdutosRefrigerante{
+    position: absolute;
+    background: linear-gradient(180deg, #4A3BA7 94.79%, rgba(167, 59, 59, 0) 100%);
+    border-radius: 7px;
+    width: 438px;
+    height: 150px;
+    left: 450px;
+    top: 488px;
+}
+/*espaço para estilizar blocoInput_precoProdutos*/
+/*espaço para estilizar blocoInput_precoProdutos*/
+.relatorio_carne{
+    position: absolute;
+    background: linear-gradient(180deg, #312727 66.97%, rgba(106, 79, 79, 0) 100%);
+    border-radius: 7px;
+    width: 95px;
+    height: 150px;
+    left: 500px;
+    top: 641px;   
+}
+#blocoInput_precoProdutosCarne{
+    position: absolute;
+    background: linear-gradient(180deg, #312727 72.37%, rgba(49, 39, 39, 0.993346) 96.03%, rgba(106, 79, 79, 0) 105.4%);
+    border-radius: 7px;
+    width: 438px;
+    height: 150px;
+    left: 600px;
+    top: 642px;
+}
+/*espaço para estilizar blocoInput_precoProdutos*/
+/*espaço para estilizar blocoInput_precoProdutos*/
+
+/*parte relacionada a lista de compras e custo total*/
+#conteiner_listaCompas_custoTotal{
+    position: absolute;
+    background: linear-gradient(180deg, rgba(234, 234, 234, 0) 7.81%, #535353 100%);
+    border-radius: 7px;
+    width: 570px;
+    height: 186px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 927px;
+}
+#conteinerValorTotal{
+    position: absolute;
+    background: linear-gradient(180deg, #E6D8D8 0%, #454242 0.01%);
+    border-radius: 7px;
+    width: 129px;
+    height: 28px;
+    left: 75%;
+    top: 150px;
+}
+#nome_listaCompras_custoTotal{
+    position: absolute;
+    width: 473px;
+    height: 39px;
+    margin-left: 10%;
+    top: 10px;
+    color: #FFFFFF;
+}
+#setaProximaPagina{
+    position: absolute;
+    width: 96px;
+    height: 75px;
+    left: 85%;
+    top: 1057px;
+}
+/*parte relacionada ao planejar um churrasco*/
