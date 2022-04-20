@@ -1,67 +1,126 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
+    <script src="model.js"></script>
     <link href="style.css" rel="stylesheet">
     <title>churrascometro 1.0</title>
 </head>
+
 <body>
-   
-<header>
 
-    <img onclick="proxima_pagina" class="imagem_setaBaixo" src="./images/icons/icons_setaParaBaixo.png" alt="seta apontada para baixo">
- 
-    <div id="menuSuperior">
-        <p id="Logo">Amorim</p>
-        <div id="texMenu">
-            <p id="texto1">Churrascometro</p>
-            <p id="texto1">Dividir as contas</p>
-            <p id="texto1">Relatorio das compras</p>
+    <header>
+
+        <img onclick="proxima_pagina()" class="imagem_setaBaixo" src="./images/icons/icons_setaParaBaixo.png"
+            alt="seta apontada para baixo">
+
+        <div id="menuSuperior">
+            <p id="Logo">Amorim</p>
+            <div id="texMenu">
+                <p id="texto1">Churrascometro</p>
+                <p id="texto1">Dividir as contas</p>
+                <p id="texto1">Relatorio das compras</p>
+            </div>
         </div>
-    </div>
 
-    <div id="conteinerElementos">
-        <p id="texCurrascometor">Churrascometro</p>
-        <p id="texAmorim">AMORIM</p>
-        <img id="componente1" src="./images/header_images/Componente1.png" alt="">
+        <div id="conteinerElementos">
+            <p id="texCurrascometor">Churrascometro</p>
+            <p id="texAmorim">AMORIM</p>
+            <img id="componente1" src="./images/header_images/Componente1.png" alt="">
 
-        <div id="conteiner_escolhaOrganizador">
-            <p>Modelo De Organizador</p> 
-            <h6 onclick="buttonCompartilhado">Compartilhado</h6>
-            <h6 onclick="buttonSolo">Solo</h6>
+            <div id="conteiner_escolhaOrganizador">
+                <p>Modelo De Organizador</p>
+                <h6>Compartilhado</h6>
+                <h6 onclick="modeloOrganizador()">Solo</h6>
+            </div>
         </div>
-    </div>
 
-    <p id="textoPagina1">A Humanidade já conseguiu vários feitos na história, mas nada supera a invenção
-        do
-        churrasco. <br>
-        Para suprir essa força primitiva que os brasileiros possuem, nada melhor do que fazer um churrasco sem
-        motivo
-        especial, chamar os amigos e beber aquela cervejinha. Mais quanto de carne e bebidas vão compra?
-    </p>
+        <p id="textoPagina1">A Humanidade já conseguiu vários feitos na história, mas nada supera a invenção
+            do
+            churrasco. <br>
+            Para suprir essa força primitiva que os brasileiros possuem, nada melhor do que fazer um churrasco sem
+            motivo
+            especial, chamar os amigos e beber aquela cervejinha. Mais quanto de carne e bebidas vão compra?
+        </p>
 
-    </div>
-</header>
+        </div>
+    </header>
 
-<main>
+    <main>
+        <div class="conteinerCalculadora">
+        
+            <div class="calculadora">
+                <h4>Entrada De Dados</h4>
+                <input type="number" name="Adultos" placeholder="Quantidade De Adultos" id="iconeAdulto">
+                <input type="number" name="Crianças" placeholder="Quantidade De Crianças" id="iconeCrianca">
+                <input type="number" name="Duração" placeholder="Duração Do Churrasco (h)" id="iconeDuracao">
+                <button type="submit">Enviar</button>
+            </div>
+        
+            <div id="conteiner_relatorioCompras">
+                <h4 id="textoRelatorio">RELATÓRIO DAS COMPRAS</h4>
+        
+                <div id="relatorio_cerveja">
+                    <p id="nomeCerveja">Cerveja</p>
+                    <img id="retangulo" src="./images/main_images/componente2.png"
+                        alt="retangulo na vertical da cor azul escuro">
+                    <div class="resultadoCerveja">20 uni.</div><!-- espaço para colocar o resultado da quantidade de garrafas de cerveja -->
+                    <img id="icone" src="./images/icons/icons_cerveja.png" alt="icone de uma garrafa de Cerveja">
+                </div>
+                <div id="relatorio_carne">
+                    <p id="nomeCarne">Carne</p>
+                    <img id="retangulo" src="./images/main_images/componente3.png" alt="retangulo na vertical da cor vermelha">
+                    <div class="resultadoCarne">20 kg</div><!-- espaço para colocar o resultado da quantidade de carne -->
+                    <img id="icone" src="./images/icons/icons_bife.png" alt="icone de um bife">
+                </div>
+                <div id="relatorio_refrigerante">
+                    <p id="nomeRefrigerante">Refrigerante</p>
+                    <img id="retangulo" src="./images/main_images/componente4.png"
+                        alt="retangulo na vertical da cor azul claro">
+                    <div class="resultadoRefrigerante">20 uni.</div><!-- espaço para colocar o resultado da quantidade de garrafas de refigerante -->
+                    <img id="icone" src="./images/icons/icons_refrigerante.png" alt="icone de uma garrafa de Refrigerante">
+                </div>
+            </div>
+        </div>
 
 
 
 
 
-</main>
-    
 
 
 
 
 
-<footer>
 
-</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    </main>
+
+
+
+    <footer>
+
+    </footer>
 
 </body>
+
 </html>
