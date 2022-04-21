@@ -101,6 +101,8 @@ h6:hover{
 /* SEGUNDA PAGINA */
 main{
 background-color: #DDDDE0;
+height: 3050px;
+width: 100%;
 }
 /*parte relacionada a calculadora*/
 .conteinerCalculadora{
@@ -367,11 +369,11 @@ button{
 /*----------------------------*/
 /*parte relacionada ao planejar um churrasco*/
 .conteiner_planejarChurrasco{
-    position: absolute;
+    position: relative;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 9.9%, rgba(0, 0, 0, 0.792813) 31.25%);
     width: 445px;
     height: 1121px;
-    left: 1414px;
+    left: 1410px;
     top: 791px;
 }
 #titulo_planejarChurrasco{
@@ -400,3 +402,226 @@ button{
     color: #B6B6B6;
 }
 /*TERCEIRA PAGINA*/
+#conteiner_pagina3{
+   position:relative;
+   background: linear-gradient(180deg, #2F3032 3.13%, rgba(40, 39, 38, 0.07) 10.94%, rgba(38, 36, 36, 0.124658) 85.42%, rgba(6, 5, 4, 0.87) 85.43%);
+   width: 1855px;
+   height: 1137px;
+   top: 791px; 
+}
+#titulo_distribuicaoLista{  
+    width: 473px;
+    left: 91px;
+    top: 216px;
+    font-size: 38px;
+}
+h5{
+    position: absolute;
+    height: 39px;
+    left: 400px;
+    top: 280px;
+    font-weight: 100;
+    font-size: 20px;
+    color: #100F0F;
+}
+#quantidadeParticipante{
+    position:absolute;
+    text-align: center;
+    width: 255px;
+    left: 690px;
+    top: 270px;
+    font-size: 22px;
+}
+.nomeParticipante1{
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    left: 9px;
+    top: 10px;
+    font-size: 13px;
+    color: #9E9E9E;
+    background-color: #350808;
+}
+#bloco_valorParticipante1{
+    position: absolute;
+    background: linear-gradient(180deg, #350808 65.88%, rgba(196, 196, 196, 0) 100%);
+    border-radius: 7px;
+    width: 95px;
+    height: 135px;
+    left: 60px;
+    top: 350px;
+}
+#bloco_distribuicaoVermelho1{
+    position: absolute;
+    background: linear-gradient(180deg, #350808 95.31%, rgba(196, 196, 196, 0) 100%);
+    border-radius: 7px;
+    width: 438px;
+    height: 135px;
+    left: 160px;
+    top: 350px;  
+}
+
+#bloco_valorParticipante2{
+    position: absolute;
+    background: linear-gradient(180deg, #350808 65.88%, rgba(196, 196, 196, 0) 100%);
+    border-radius: 7px;
+    width: 95px;
+    height: 135px;
+    left: 660px;
+    top: 350px;
+}
+#bloco_distribuicaoVermelho2{
+    position: absolute;
+    background: linear-gradient(180deg, #350808 95.31%, rgba(196, 196, 196, 0) 100%);
+    border-radius: 7px;
+    width: 438px;
+    height: 135px;
+    left: 760px;
+    top: 350px;  
+}
+
+#bloco_valorParticipante3{
+    position: absolute;
+    background: linear-gradient(180deg, #350808 65.88%, rgba(196, 196, 196, 0) 100%);
+    border-radius: 7px;
+    width: 95px;
+    height: 135px;
+    left: 1260px;
+    top: 350px;
+}
+#bloco_distribuicaoVermelho3{
+    position: absolute;
+    background: linear-gradient(180deg, #350808 95.31%, rgba(196, 196, 196, 0) 100%);
+    border-radius: 7px;
+    width: 438px;
+    height: 135px;
+    left: 1360px;
+    top: 350px;  
+}
+.nomeParticipante2{
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    left: 9px;
+    top: 10px;
+    font-size: 13px;
+    color: #9E9E9E;
+    background-color: #4A3BA7;
+}
+#bloco_valorParticipante4{
+    position: absolute;
+    width: 95px;
+    height: 135px;
+    left: 60px;
+    top: 550px; 
+    background: linear-gradient(180deg, #4A3BA7 71.69%, rgba(167, 59, 59, 0) 100%);
+    border-radius: 7px;
+}
+#bloco_distribuicaoRoxo4{
+    position: absolute;
+    width: 438px;
+    height: 135px;
+    left: 160px;
+    top: 550px;
+    background: linear-gradient(180deg, #4A3BA7 94.79%, rgba(167, 59, 59, 0) 100%);
+    border-radius: 7px;
+}
+#bloco_valorParticipante5{
+    position: absolute;
+    width: 95px;
+    height: 135px;
+    left: 660px;
+    top: 550px;
+    background: linear-gradient(180deg, #4A3BA7 71.69%, rgba(167, 59, 59, 0) 100%);
+    border-radius: 7px;
+}
+#bloco_distribuicaoRoxo5{
+    position: absolute;
+    width: 438px;
+    height: 135px;
+    left: 760px;
+    top: 550px;
+    background: linear-gradient(180deg, #4A3BA7 94.79%, rgba(167, 59, 59, 0) 100%);
+    border-radius: 7px;
+}
+#bloco_valorParticipante6{
+    position: absolute;
+    width: 95px;
+    height: 135px;
+    left: 1260px;
+    top: 550px;
+    background: linear-gradient(180deg, #4A3BA7 71.69%, rgba(167, 59, 59, 0) 100%);
+    border-radius: 7px;
+}
+#bloco_distribuicaoRoxo6{
+    position: absolute;
+    width: 438px;
+    height: 135px;
+    left: 1360px;
+    top: 550px;
+    background: linear-gradient(180deg, #4A3BA7 94.79%, rgba(167, 59, 59, 0) 100%);
+    border-radius: 7px;
+}
+.nomeParticipante3{
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    left: 9px;
+    top: 10px;
+    font-size: 13px;
+    background-color: #312727;
+}
+#bloco_valorParticipante7{
+    position: absolute;
+    width: 95px;
+    height: 135px;
+    left: 60px;
+    top: 750px;
+    background: linear-gradient(180deg, #312727 66.97%, rgba(106, 79, 79, 0) 100%);
+    border-radius: 7px;
+}
+#bloco_distribuicaoRoxo7{
+    position: absolute;
+    width: 438px;
+    height: 135px;
+    left: 160px;
+    top: 750px;
+    background: linear-gradient(180deg, #312727 72.37%, rgba(49, 39, 39, 0.993346) 96.03%, rgba(106, 79, 79, 0) 105.4%);
+    border-radius: 7px;
+}
+#bloco_valorParticipante8{
+    position: absolute;
+    width: 95px;
+    height: 135px;
+    left: 660px;
+    top: 750px;
+    background: linear-gradient(180deg, #312727 66.97%, rgba(106, 79, 79, 0) 100%);
+    border-radius: 7px;
+}
+#bloco_distribuicaoRoxo8{
+    position: absolute;
+    width: 438px;
+    height: 135px;
+    left: 760px;
+    top: 750px;
+    background: linear-gradient(180deg, #312727 72.37%, rgba(49, 39, 39, 0.993346) 96.03%, rgba(106, 79, 79, 0) 105.4%);
+    border-radius: 7px;
+}
+#bloco_valorParticipante9{
+    position: absolute;
+    width: 95px;
+    height: 135px;
+    left: 1260px;
+    top: 750px;
+    background: linear-gradient(180deg, #312727 66.97%, rgba(106, 79, 79, 0) 100%);
+    border-radius: 7px;
+}
+#bloco_distribuicaoRoxo9{
+    position: absolute;
+    width: 438px;
+    height: 135px;
+    left: 1360px;
+    top: 750px;
+    background: linear-gradient(180deg, #312727 72.37%, rgba(49, 39, 39, 0.993346) 96.03%, rgba(106, 79, 79, 0) 105.4%);
+    border-radius: 7px;
+}
