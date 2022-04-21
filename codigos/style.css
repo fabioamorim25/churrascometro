@@ -105,7 +105,7 @@ background-color: #DDDDE0;
 /*parte relacionada a calculadora*/
 .conteinerCalculadora{
     position: absolute;
-    background: linear-gradient(180deg, rgba(157, 56, 34, 0) 12.5%, #1B1C1E 26.56%);
+    background: linear-gradient(180deg, rgba(157, 56, 34, 0) 12.5%, #1B1C1E 32.81%);
     width: 260px;
     height: 1137px;
     top: 775px;
@@ -115,8 +115,7 @@ h4{
     width: 251px;
     height: 39px;
     left: 11px;
-    top: 230px;
-
+    top: 265px;
     font-size: 38px;
     color: #100F0F;
 }
@@ -130,7 +129,7 @@ input{
     width: 210px;
     height: 43px;
     left: 27px;
-    top: 317px;
+    top: 350px;
     margin-bottom:43px ;
 
     font-family: 'Inter'; 
@@ -143,7 +142,7 @@ button{
     width: 78px;
     height: 30px;
     left: 84px;
-    top: 622px;  
+    top: 645px;  
 
     color: #000000;
 }
@@ -171,8 +170,8 @@ button{
     width: 173px;
     height: 64px;
     left: 39px;
-    top: 792px;
-
+    top: 800px;
+    text-align: center;
     font-size: 30px;
     color: #ACACAC;
 }
@@ -183,7 +182,7 @@ button{
     width: 85px;
     height: 85px;
     left: 37px;
-    top: 891px;
+    top: 920px;
 }
 #relatorio_carne{
     position: absolute;
@@ -192,7 +191,7 @@ button{
     width: 85px;
     height: 85px;
     left: 135px;
-    top: 891px;    
+    top: 920px;    
 }
 #relatorio_refrigerante{
     position: absolute;
@@ -201,7 +200,7 @@ button{
     width: 85px;
     height: 85px;
     left: 86px;
-    top: 992px;    
+    top: 1020px;    
 }
 #nome_bebidasCarne{
     margin-left: 10px;
@@ -236,10 +235,10 @@ button{
     left: 260px;
     top: 766px;  
 }
-#texto_precoPodutos{
+#titulo_precoPodutos{
     width: 473px;
     left: 110px;
-    top: 240px;
+    top: 275px;
 }
 /*estilizar os valores recebidos no relatorio de compras para separar por produtos*/
 .relatorio_cerveja{
@@ -249,7 +248,7 @@ button{
     width: 95px;
     height: 150px;
     left: 190px;
-    top: 329px;   
+    top: 360px;   
 }
 .retangulo{
     position: absolute;
@@ -270,7 +269,7 @@ button{
     width: 438px;
     height: 150px;
     left: 290px;
-    top: 329px;    
+    top: 360px;    
 }
 /*espaço para estilizar blocoInput_precoProdutos*/
 /*espaço para estilizar blocoInput_precoProdutos*/
@@ -281,7 +280,7 @@ button{
     width: 95px;
     height: 150px;
     left: 350px;
-    top: 488px;    
+    top: 520px;    
 }
 #blocoInput_precoProdutosRefrigerante{
     position: absolute;
@@ -290,7 +289,7 @@ button{
     width: 438px;
     height: 150px;
     left: 450px;
-    top: 488px;
+    top: 520px;
 }
 /*espaço para estilizar blocoInput_precoProdutos*/
 /*espaço para estilizar blocoInput_precoProdutos*/
@@ -301,7 +300,7 @@ button{
     width: 95px;
     height: 150px;
     left: 500px;
-    top: 641px;   
+    top: 680px;   
 }
 #blocoInput_precoProdutosCarne{
     position: absolute;
@@ -310,7 +309,7 @@ button{
     width: 438px;
     height: 150px;
     left: 600px;
-    top: 642px;
+    top: 680px;
 }
 /*espaço para estilizar blocoInput_precoProdutos*/
 /*espaço para estilizar blocoInput_precoProdutos*/
@@ -343,11 +342,61 @@ button{
     top: 10px;
     color: #FFFFFF;
 }
+/*----------------------------*/
 #setaProximaPagina{
     position: absolute;
-    width: 96px;
+    width: 77px;
     height: 75px;
-    left: 85%;
+    left: 80%;
     top: 1057px;
+}/*no js sera definido qual sera mostrado a(imagem ou o botão)*/
+#imprimir_pdf{
+    position: absolute;
+    background: linear-gradient(180deg, #6A4F4F 0%, #803E3E 66.97%);
+    border-radius: 7px;
+    width: 77px;
+    height: 103px;
+    left: 80%;
+    top: 1010px;
+    
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
 }
+/*----------------------------*/
 /*parte relacionada ao planejar um churrasco*/
+.conteiner_planejarChurrasco{
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 9.9%, rgba(0, 0, 0, 0.792813) 31.25%);
+    width: 445px;
+    height: 1121px;
+    left: 1414px;
+    top: 791px;
+}
+#titulo_planejarChurrasco{
+    position: relative;
+    height: 80px;
+    left: 50%;
+    top: 250px;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 280px;
+}
+#conteinerTextosPlanejamentoChurrasco{
+    position: relative;
+    background: linear-gradient(180deg, #352727 95.31%, rgba(196, 196, 196, 0) 100%);
+    border-radius: 7px;
+    max-width: 350px;
+    left: 23px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 13px;
+}
+#tituloConteinerPlanejamentoChurrasco{
+    text-align: center;
+    margin-bottom: 5px;
+    color: #B6B6B6;
+}
+/*TERCEIRA PAGINA*/
