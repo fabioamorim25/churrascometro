@@ -15,7 +15,7 @@
 
     <header>
 
-        <img onclick="proxima_pagina()" class="imagem_setaBaixo" src="./images/icons/icons_setaParaBaixo.png"
+        <img id="setaBaixo1" onclick="rolarPagina2()" src="./images/icons/icons_setaParaBaixo.png"
             alt="seta apontada para baixo">
 
         <div id="menuSuperior">
@@ -51,7 +51,7 @@
     </header>
 
     <main>
-        <div class="conteinerCalculadora">
+        <section class="conteinerCalculadora">
 
             <div class="calculadora">
                 <h4>Entrada De Dados</h4>
@@ -90,9 +90,9 @@
                         alt="icone de uma garrafa de Refrigerante">
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="conteiner_precoCompas">
+        <section class="conteiner_precoCompas">
 
             <!-- COLOCAR A NAVEGAÇÃO ENTRE AS PAGINAS (pagina 1 e pagina 2) -->
 
@@ -159,11 +159,11 @@
 
             </div>
 
-            <img id="setaProximaPagina" src="./images/icons/icons_setaParaBaixo.png" alt="">
+            <img id="setaBaixo2"  onclick="rolarPagina2()" src="./images/icons/icons_setaParaBaixo.png" alt="seta apontada para baixo">
             <button id="imprimir_pdf">imprimir lista de compras</button>
-        </div>
+        </section>
 
-        <div class="conteiner_planejarChurrasco">
+        <section class="conteiner_planejarChurrasco">
             <h4 id="titulo_planejarChurrasco">Planejar Um Churrasco</h4>
 
             <div id="conteinerTextosPlanejamentoChurrasco">
@@ -200,9 +200,9 @@
                     dos tipos de carne abaixo: <br><br>Picanha, Maminha, Fraldinha, Frango, Miolo de alcatra,
                     Contrafilé, Costela de boi, Linguiça.</p>
             </div>
-        </div>
+        </section>
 
-        <div id="conteiner_pagina3">
+        <section id="conteiner_pagina3">
             <!-- COLOCAR A NAVEGAÇÃO ENTRE AS PAGINAS (pagina 1, pagina 2 e pagina 3 ) -->
             <h4 id="titulo_distribuicaoLista">Distribuição Da Lista De Compras</h4>
             <h5> Quantidade De Participantes Pagantes:</h5>
@@ -327,7 +327,7 @@
 
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     
     <footer>

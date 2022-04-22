@@ -20,12 +20,17 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 860px;
+    width: 100%;
 }
-.imagem_setaBaixo{
-    position:relative;
+::-webkit-scrollbar{
+       
+}
+#setaBaixo1{
+    position:absolute;
     width: 60px;
     left: 50%;
     top: 100%;
+    cursor: pointer;
 }
 /* TEXTO SUPERIOR DA PRIMEIRA PAGINA */
 #Logo{
@@ -82,10 +87,10 @@ h6{
     border-radius: 5px;
     padding: 15px;
     font-size: 20px;
+    cursor: pointer;
 }
 h6:hover{
     padding: 18px;
-    
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
@@ -110,7 +115,7 @@ width: 100%;
     background: linear-gradient(180deg, rgba(157, 56, 34, 0) 12.5%, #1B1C1E 32.81%);
     width: 260px;
     height: 1137px;
-    top: 775px;
+    top: 895px;
 }
 h4{
     position: absolute;
@@ -145,7 +150,7 @@ button{
     height: 30px;
     left: 84px;
     top: 645px;  
-
+    cursor: pointer;
     color: #000000;
 }
 #iconeAdulto{
@@ -235,7 +240,7 @@ button{
     width: 1150px;
     height: 1146px;
     left: 260px;
-    top: 766px;  
+    top: 895px; 
 }
 #titulo_precoPodutos{
     width: 473px;
@@ -345,12 +350,13 @@ button{
     color: #FFFFFF;
 }
 /*----------------------------*/
-#setaProximaPagina{
+#setaBaixo2{
     position: absolute;
     width: 77px;
     height: 75px;
     left: 80%;
     top: 1057px;
+    cursor: pointer;
 }/*no js sera definido qual sera mostrado a(imagem ou o botão)*/
 #imprimir_pdf{
     position: absolute;
@@ -360,7 +366,7 @@ button{
     height: 103px;
     left: 80%;
     top: 1010px;
-    
+    cursor: pointer;
     color: #FFFFFF;
     font-size: 15px;
     line-height: 16px;
@@ -374,7 +380,7 @@ button{
     width: 445px;
     height: 1121px;
     left: 1410px;
-    top: 791px;
+    top: 905px;
 }
 #titulo_planejarChurrasco{
     position: relative;
@@ -407,7 +413,7 @@ button{
    background: linear-gradient(180deg, #2F3032 3.13%, rgba(40, 39, 38, 0.07) 10.94%, rgba(38, 36, 36, 0.124658) 85.42%, rgba(6, 5, 4, 0.87) 85.43%);
    width: 1855px;
    height: 1137px;
-   top: 791px; 
+   top: 905px; 
 }
 #titulo_distribuicaoLista{  
     width: 473px;
