@@ -33,6 +33,9 @@ header{
     cursor: pointer;
 }
 /* TEXTO SUPERIOR DA PRIMEIRA PAGINA */
+#menuSuperior{
+    margin-top: 40px;
+}
 #Logo{
    display: inline;
    background: linear-gradient(180deg, rgba(196, 196, 196, 0.28) 0%, rgba(196, 196, 196, 0) 100%);
@@ -103,26 +106,28 @@ h6:hover{
     text-align: center;
     top:85%;
 }
+
+
+
+
+
+
 /* SEGUNDA PAGINA */
-main{
-background-color: #DDDDE0;
-height: 3050px;
-width: 100%;
-}
+
 /*parte relacionada a calculadora*/
-.conteinerCalculadora{
+#conteinerCalculadora{
     position: absolute;
     background: linear-gradient(180deg, rgba(157, 56, 34, 0) 12.5%, #1B1C1E 32.81%);
     width: 260px;
-    height: 1137px;
-    top: 895px;
+    height: 950px;
+    top: 930px;
 }
 h4{
     position: absolute;
     width: 251px;
     height: 39px;
     left: 11px;
-    top: 265px;
+    top: 100px;
     font-size: 38px;
     color: #100F0F;
 }
@@ -136,20 +141,20 @@ input{
     width: 210px;
     height: 43px;
     left: 27px;
-    top: 350px;
+    top: 200px;
     margin-bottom:43px ;
 
     font-family: 'Inter'; 
     color: #000;  
 }
 button{
-    position: absolute;
+    position: relative;
     background: #F58706;
     border-radius: 15px;
     width: 78px;
     height: 30px;
     left: 84px;
-    top: 645px;  
+    top: 250px;  
     cursor: pointer;
     color: #000000;
 }
@@ -173,41 +178,41 @@ button{
 }
 /* parte relacionado ao relatorio geral das compras */
 #textoRelatorio{
-    position: absolute;
+    position: relative;
     width: 173px;
     height: 64px;
     left: 39px;
-    top: 800px;
+    top: 330px;
     text-align: center;
     font-size: 30px;
     color: #ACACAC;
 }
 #relatorio_cerveja{
-    position: absolute;
+    position: relative;
     background: linear-gradient(180deg, #350808 65.88%, rgba(196, 196, 196, 0) 100%);
     border-radius: 7px;   
     width: 85px;
     height: 85px;
     left: 37px;
-    top: 920px;
+    top: 350px;
 }
 #relatorio_carne{
-    position: absolute;
+    position: relative;
     background: linear-gradient(180deg, #312727 66.97%, rgba(106, 79, 79, 0) 100%);
     border-radius: 7px;
     width: 85px;
     height: 85px;
     left: 135px;
-    top: 920px;    
+    top: 265px;    
 }
 #relatorio_refrigerante{
-    position: absolute;
+    position: relative;
     background: linear-gradient(180deg, #4A3BA7 71.69%, rgba(167, 59, 59, 0) 100%);
     border-radius: 7px;
     width: 85px;
     height: 85px;
     left: 86px;
-    top: 1020px;    
+    top: 280px;    
 }
 #nome_bebidasCarne{
     margin-left: 10px;
@@ -238,14 +243,14 @@ button{
     position: absolute;
     background: linear-gradient(180deg, rgba(20, 8, 8, 0) 12.26%, rgba(0, 0, 0, 0.792813) 77.6%);
     width: 1150px;
-    height: 1146px;
+    height: 950px;
     left: 260px;
-    top: 895px; 
+    top: 930px; 
 }
 #titulo_precoPodutos{
     width: 473px;
     left: 110px;
-    top: 275px;
+    top: 100px;
 }
 /*estilizar os valores recebidos no relatorio de compras para separar por produtos*/
 .relatorio_cerveja{
@@ -255,7 +260,7 @@ button{
     width: 95px;
     height: 150px;
     left: 190px;
-    top: 360px;   
+    top: 190px;   
 }
 .retangulo{
     position: absolute;
@@ -276,7 +281,7 @@ button{
     width: 438px;
     height: 150px;
     left: 290px;
-    top: 360px;    
+    top: 190px;    
 }
 /*espaço para estilizar blocoInput_precoProdutos*/
 /*espaço para estilizar blocoInput_precoProdutos*/
@@ -287,7 +292,7 @@ button{
     width: 95px;
     height: 150px;
     left: 350px;
-    top: 520px;    
+    top: 350px;    
 }
 #blocoInput_precoProdutosRefrigerante{
     position: absolute;
@@ -296,7 +301,7 @@ button{
     width: 438px;
     height: 150px;
     left: 450px;
-    top: 520px;
+    top: 350px;
 }
 /*espaço para estilizar blocoInput_precoProdutos*/
 /*espaço para estilizar blocoInput_precoProdutos*/
@@ -307,7 +312,7 @@ button{
     width: 95px;
     height: 150px;
     left: 500px;
-    top: 680px;   
+    top: 510px;   
 }
 #blocoInput_precoProdutosCarne{
     position: absolute;
@@ -316,7 +321,7 @@ button{
     width: 438px;
     height: 150px;
     left: 600px;
-    top: 680px;
+    top: 510px;
 }
 /*espaço para estilizar blocoInput_precoProdutos*/
 /*espaço para estilizar blocoInput_precoProdutos*/
@@ -330,7 +335,7 @@ button{
     height: 186px;
     left: 50%;
     transform: translateX(-50%);
-    top: 927px;
+    top: 745px;
 }
 #conteinerValorTotal{
     position: absolute;
@@ -355,7 +360,7 @@ button{
     width: 77px;
     height: 75px;
     left: 80%;
-    top: 1057px;
+    top: 860px;
     cursor: pointer;
 }/*no js sera definido qual sera mostrado a(imagem ou o botão)*/
 #imprimir_pdf{
@@ -365,7 +370,7 @@ button{
     width: 77px;
     height: 103px;
     left: 80%;
-    top: 1010px;
+    top: 820px;
     cursor: pointer;
     color: #FFFFFF;
     font-size: 15px;
@@ -377,28 +382,28 @@ button{
 .conteiner_planejarChurrasco{
     position: relative;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 9.9%, rgba(0, 0, 0, 0.792813) 31.25%);
-    width: 445px;
-    height: 1121px;
+    width: 24%;
+    height: 950px;
     left: 1410px;
-    top: 905px;
+    top: 930px;
 }
 #titulo_planejarChurrasco{
     position: relative;
     height: 80px;
     left: 50%;
-    top: 250px;
+    top: 100px;
     transform: translateX(-50%);
     text-align: center;
     font-size: 38px;
-    margin-bottom: 280px;
+    margin-bottom: 120px;
 }
 #conteinerTextosPlanejamentoChurrasco{
     position: relative;
     background: linear-gradient(180deg, #352727 95.31%, rgba(196, 196, 196, 0) 100%);
     border-radius: 7px;
-    max-width: 350px;
-    left: 23px;
-    margin-bottom: 30px;
+    max-width: 80%;
+    left: 6%;
+    margin-bottom: 20px;
     padding: 20px;
     font-size: 13px;
 }
@@ -407,13 +412,23 @@ button{
     margin-bottom: 5px;
     color: #B6B6B6;
 }
+
+
+
+
+
+
+
+
+
+
 /*TERCEIRA PAGINA*/
 #conteiner_pagina3{
    position:relative;
    background: linear-gradient(180deg, #2F3032 3.13%, rgba(40, 39, 38, 0.07) 10.94%, rgba(38, 36, 36, 0.124658) 85.42%, rgba(6, 5, 4, 0.87) 85.43%);
-   width: 1855px;
+   width: 1857px;
    height: 1137px;
-   top: 905px; 
+   top: 930px; 
 }
 #titulo_distribuicaoLista{  
     width: 473px;
@@ -630,4 +645,70 @@ h5{
     top: 750px;
     background: linear-gradient(180deg, #312727 72.37%, rgba(49, 39, 39, 0.993346) 96.03%, rgba(106, 79, 79, 0) 105.4%);
     border-radius: 7px;
+}
+
+/*tegs dos elementos de navegação de pagina*/
+
+/*conteiner navegação 1*/
+#navegacao1{
+    position: absolute;
+    left: 150px;   
+}
+#naveOrganizador{
+    position: relative;
+    font-size: 18px;
+    color: #100F0F;
+    top: 26px;
+    cursor: pointer;
+}
+#setaLateral{
+    position: relative;
+    width: 20px;
+    left: 2px;
+    top: 3px;
+}
+#naveChurrascometro{
+    position:absolute;
+    left: 120px;
+    top: 31px;
+    font-size: 18px;
+    color: #4A4848;
+}
+/*conteiner navegação 2*/
+#navegacao2{
+    position: absolute;
+    left: 300px; 
+    top: 120px;
+}
+.naveOrganizador{
+    position: relative;
+    font-size: 18px;
+    color: #100F0F;
+    top: 30px;
+    cursor: pointer;
+}
+#setaLateral2{
+    position: absolute;
+    width: 20px;
+    
+}
+.naveChurrascometro{
+    position:absolute;
+    left: 120px;
+    top: 30px;
+    font-size: 18px;
+    color: #100F0F;
+    cursor: pointer;
+}
+#setaLateral3{
+    position: absolute;
+    width: 20px;
+    
+}
+#naveDividirConta{
+    position:absolute;
+    left: 255px;
+    top: 30px;
+    font-size: 18px;
+    color: #4A4848;
 }

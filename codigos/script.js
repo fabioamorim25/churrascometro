@@ -20,35 +20,21 @@ function modeloSolo (){
     document.getElementById ("imprimir_pdf").hidden=false;//mostra o botão imprimir 
 } 
 
-
-
-
-
-
-
-
-
-
-
-
 // LOGICA: MUDAR PARA A PROXIMA PAGINA QUANDO A SETA P/ BAIXO FOR USADA 
 // 1° seta- entra na segunda pagina // 2° seta- entra na terceira pagina
 
 function rolarPagina2(){
-console.log("asdadasdas");
-//document.getElementsByClassName (obj).scrollIntoView ();
-  
-//criar uma função que quando a seta para baixo for clicada sera movimentado o cursor para baixo, mostrando a proxima pagina
-
+//console.log("asdadasdas");
+var pagina2 = document.getElementById("setaLateral");
+    pagina2.scrollIntoView();
 }
-//function painelRolagem (){// adicionar os botões das setas para usar
-  //  document.getElementsByClassName("imagem_setaBaixo").addEventListener("click",rolarPagina);
-  //  document.getElementById("setaProximaPagina").addEventListener("click",rolarPagina);
-//}
-//window.addEventListener ("load",painelRolagem);
-
-
-
-
-
+function rolarPagina3(){
+    var pagina3 = document.getElementById("setaLateral2");
+    pagina3.scrollIntoView();
+}
+function rolarPagina1(){
+    //console.log("asdadasdas");
+    var pagina1 = document.getElementById("menuSuperior");
+    pagina1.scrollIntoView();
+}
 

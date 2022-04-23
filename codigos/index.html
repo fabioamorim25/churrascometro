@@ -51,7 +51,7 @@
     </header>
 
     <main>
-        <section class="conteinerCalculadora">
+        <section id="conteinerCalculadora">
 
             <div class="calculadora">
                 <h4>Entrada De Dados</h4>
@@ -94,7 +94,10 @@
 
         <section class="conteiner_precoCompas">
 
-            <!-- COLOCAR A NAVEGAÇÃO ENTRE AS PAGINAS (pagina 1 e pagina 2) -->
+            <div id="navegacao1">
+                <h4 id="naveOrganizador" onclick="rolarPagina1 ()">Organizador <img id="setaLateral" src="./images/icons/icons_setaLateral.png" alt="seta apontando para lateral direita"> </h4>
+                <h4 id="naveChurrascometro">Churrascometro</h4>
+            </div>
 
             <h4 id="titulo_precoPodutos">Preço Dos Produtos Por Categoria</h4>
 
@@ -159,7 +162,7 @@
 
             </div>
 
-            <img id="setaBaixo2"  onclick="rolarPagina2()" src="./images/icons/icons_setaParaBaixo.png" alt="seta apontada para baixo">
+            <img id="setaBaixo2"  onclick="rolarPagina3()" src="./images/icons/icons_setaParaBaixo.png" alt="seta apontada para baixo">
             <button id="imprimir_pdf">imprimir lista de compras</button>
         </section>
 
@@ -201,9 +204,18 @@
                     Contrafilé, Costela de boi, Linguiça.</p>
             </div>
         </section>
-
+</main>
         <section id="conteiner_pagina3">
-            <!-- COLOCAR A NAVEGAÇÃO ENTRE AS PAGINAS (pagina 1, pagina 2 e pagina 3 ) -->
+            
+
+            <div id="navegacao2">
+                <h4 class="naveOrganizador" onclick="rolarPagina1()">Organizador <img id="setaLateral2" src="./images/icons/icons_setaLateral.png" alt="seta apontando para lateral direita"> </h4>
+                <h4 class="naveChurrascometro" onclick="rolarPagina2()">Churrascometro <img id="setaLateral3" src="./images/icons/icons_setaLateral.png" alt="seta apontando para lateral direita"> </h4>
+                <h4 id="naveDividirConta">Dividir as contas</h4>
+            </div>
+
+
+
             <h4 id="titulo_distribuicaoLista">Distribuição Da Lista De Compras</h4>
             <h5> Quantidade De Participantes Pagantes:</h5>
             <input id="quantidadeParticipante" type="number" name="VALOR" min="1" max="9"
@@ -328,7 +340,7 @@
                 </div>
             </div>
         </section>
-    </main>
+    
     
     <footer>
 
