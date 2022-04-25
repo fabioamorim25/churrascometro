@@ -15,15 +15,15 @@
     src: url(./fonts/Tangerine-Bold.ttf)
 }
 header{
-   position: absolute;
+    position: absolute;
     Background-image: url(./images/header_images/churrasco_fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 860px;
-    width: 100%;
+    width: 1861px;
 }
 ::-webkit-scrollbar{
-       
+    display: none;
 }
 #setaBaixo1{
     position:absolute;
@@ -34,12 +34,12 @@ header{
 }
 /* TEXTO SUPERIOR DA PRIMEIRA PAGINA */
 #menuSuperior{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 #Logo{
    display: inline;
    background: linear-gradient(180deg, rgba(196, 196, 196, 0.28) 0%, rgba(196, 196, 196, 0) 100%);
-   padding: 16px;
+   padding: 10px;
    border-radius:26px ;
    font-size: 30px; 
    margin-left: 15px;
@@ -158,19 +158,19 @@ button{
     cursor: pointer;
     color: #000000;
 }
-#iconeAdulto{
+.iconeAdulto{
     background-image: url(./images/icons/icons_adulto.png);
     background-repeat: no-repeat;
     background-position: right;
     text-align: center;
 }
-#iconeCrianca{
+.iconeCrianca{
     background-image: url(./images/icons/icons_baby.png);
     background-repeat: no-repeat;
     background-position: right;
     text-align: center;
 }
-#iconeDuracao{
+.iconeDuracao{
     background-image: url(./images/icons/icons_tempo.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -426,7 +426,7 @@ button{
 #conteiner_pagina3{
    position:relative;
    background: linear-gradient(180deg, #2F3032 3.13%, rgba(40, 39, 38, 0.07) 10.94%, rgba(38, 36, 36, 0.124658) 85.42%, rgba(6, 5, 4, 0.87) 85.43%);
-   width: 1857px;
+   width: 1861px;
    height: 1137px;
    top: 930px; 
 }

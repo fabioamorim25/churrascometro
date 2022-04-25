@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <script src="model.js"></script>
     <link href="style.css" rel="stylesheet">
     <title>churrascometro 1.0</title>
 </head>
@@ -55,10 +53,10 @@
 
             <div class="calculadora">
                 <h4>Entrada De Dados</h4>
-                <input type="number" name="Adultos" placeholder="Quantidade De Adultos" id="iconeAdulto">
-                <input type="number" name="Crianças" placeholder="Quantidade De Crianças" id="iconeCrianca">
-                <input type="number" name="Duração" placeholder="Duração Do Churrasco (h)" id="iconeDuracao">
-                <button type="submit">Enviar</button>
+                <input type="number" id="adulto" nome="adultos" placeholder="Quantidade De Adultos" class="iconeAdulto">
+                <input type="number" id="crianca" nome="criancas" placeholder="Quantidade De Crianças" class="iconeCrianca">
+                <input type="number" id="duracao" nome="duracao" placeholder="Duração Do Churrasco (h)" class="iconeDuracao" >
+                <button onclick="verificar()">Enviar</button>
             </div>
 
             <div>
@@ -68,24 +66,27 @@
                     <p id="nome_bebidasCarne">Cerveja</p>
                     <img id="retangulo" src="./images/main_images/componente2.png"
                         alt="retangulo na vertical da cor azul escuro">
-                    <div class="resultadoCerveja">20 uni.</div>
+                    <div class="resultadoCerveja"></div>
                     <!-- espaço para colocar o resultado da quantidade de garrafas de cerveja -->
+                    
                     <img id="icone" src="./images/icons/icons_cerveja.png" alt="icone de uma garrafa de Cerveja">
                 </div>
                 <div id="relatorio_carne">
                     <p id="nome_bebidasCarne">Carne</p>
                     <img id="retangulo" src="./images/main_images/componente3.png"
                         alt="retangulo na vertical da cor vermelha">
-                    <div class="resultadoCarne">20 kg</div>
+                    <div class="resultadoCarne"></div>
                     <!-- espaço para colocar o resultado da quantidade de carne -->
+                   
                     <img id="icone" src="./images/icons/icons_bife.png" alt="icone de um bife">
                 </div>
                 <div id="relatorio_refrigerante">
                     <p id="nome_bebidasCarne">Refrigerante</p>
                     <img id="retangulo" src="./images/main_images/componente4.png"
                         alt="retangulo na vertical da cor azul claro">
-                    <div class="resultadoRefrigerante">20 uni.</div>
+                    <div class="resultadoRefrigerante"></div>
                     <!-- espaço para colocar o resultado da quantidade de garrafas de refigerante -->
+                    
                     <img id="icone" src="./images/icons/icons_refrigerante.png"
                         alt="icone de uma garrafa de Refrigerante">
                 </div>
@@ -108,7 +109,7 @@
                     <img class="retangulo" src="./images/main_images/componente2.png"
                         alt="retangulo na vertical da cor azul escuro">
                     <div class="resultadoCerveja">
-                        20 uni.
+                        
                         <!-- espaço para colocar o resultado da quantidade de garrafas de cerveja -->
 
                     </div>
@@ -348,5 +349,8 @@
 
     </footer>
 </body>
+
+<script src="script.js"></script>
+<script src="model.js"></script>
 
 </html>
