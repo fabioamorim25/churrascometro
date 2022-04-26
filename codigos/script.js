@@ -45,15 +45,5 @@ function rolarPagina1(){
 
 
 
-
-
-
-
-
-
-// CONTROLE 1: RECEBER OS DADOS DOS INPUS DA CALCULADORA 
-//gera o relatorio generico das compras (total: carne,refrigerante,cerveja)
-
-
-
+  
 

@@ -226,12 +226,16 @@ button{
     margin-left: 13px;
     margin-top: 5px;
 }
-.resultadoCerveja,.resultadoCarne,.resultadoRefrigerante{
+/*estilo dos valores encontrados(relatorio geral das compras)*/
+#resultadoCerveja,#resultadoCarne,#resultadoRefrigerante{
     position: absolute;
     text-align: center;
     left: 10px;
     top: 35%;
+    
 }
+
+
 #icone{
     position: absolute;
     width: 22px;
