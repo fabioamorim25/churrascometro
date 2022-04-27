@@ -39,8 +39,7 @@ function rolarPagina1(){
 
 
 
-// LOGICA: TRAVAR A POSIÇÃO DO SCROLL DO MOUSE
-//usado para fazer com que o usuario tenha que utilizar o sistema de navegação do sistema
+
 
 
 

@@ -6,6 +6,9 @@
     color: #FAFAFA;
     list-style-type:none;
 }
+body {
+    overflow: hidden;
+}
 @font-face{
     font-family:SquadaOne-Regular;
     src: url(./fonts/SquadaOne-Regular.ttf )

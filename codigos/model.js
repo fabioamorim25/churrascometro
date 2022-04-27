@@ -23,7 +23,10 @@ function verificar2() { // usado para nao quebra os conteiner dos relatorio. qua
       criancas.value = 0;
       tempo.value = 0;
   } else {
-      relatorioDasCompras () 
+      relatorioDasCompras ()
+      adultos.value = 0;
+      criancas.value = 0;
+      tempo.value = 0; 
   }
 }
 /////////////////////////////////////////////////////////////////////////////////////////
