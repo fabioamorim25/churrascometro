@@ -115,16 +115,24 @@
                     <img class="retangulo" src="./images/main_images/componente2.png"
                         alt="retangulo na vertical da cor azul escuro">
                     <div id="resultadoCerveja2">
-                        
-                        <!-- espaço para colocar o resultado da quantidade de garrafas de cerveja -->
-
+                    <!-- espaço para colocar o resultado da quantidade de garrafas de cerveja -->
                     </div>
                 </div>
-                <table id="blocoInput_precoProdutosCerveja">
+                <form id="blocoInput_precoProdutosCerveja">
 
                     <!-- COLOCAR OS INPUTS PARA QUANTIDADE,NOME E PREÇO DOS PRODUTOS -->
-
-                </table>
+                    <label id="tituloInputsPreco">Quantidade</label>                   
+                    <input id="inputQuant1" type="number">
+                    <label id="tituloInputsPreco">Nome Da Cerveja</label>
+                    <input id="inputNome1" type="text">
+                    <label id="tituloInputsPreco">Preço Unitario</label>
+                    <input id="inputPreco1" type="number" pattern="[0-9]+([,\.][0-9]+)?" min="0" step="any name="null">
+                   
+                    <div id="caixaDeInputs">  </div>
+                    
+                    <button id="adicionar1">+</button>
+                    <button id="mandar" onclick="armazenarValores()">enviar</button>
+                </form>
             </div>
 
             <div>
@@ -138,11 +146,11 @@
                         <!-- espaço para colocar o resultado da quantidade de garrafas de refigerante -->
                     </div>
                 </div>
-                <table id="blocoInput_precoProdutosRefrigerante">
+                <form id="blocoInput_precoProdutosRefrigerante">
 
                     <!-- COLOCAR OS INPUTS PARA QUANTIDADE,NOME E PREÇO DOS PRODUTOS -->
 
-                </table>
+                </form>
             </div>
 
             <div>

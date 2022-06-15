@@ -22,20 +22,64 @@ const buttonSeta2=document.getElementById ("setaBaixo2");
 const buttonSeta1=document.getElementById ("setaBaixo1");
 
 function rolarPagina2(){
-var pagina2 = document.getElementById("setaLateral");
+const pagina2 = document.getElementById("setaLateral");
     pagina2.scrollIntoView();
 }
 function rolarPagina3(){
-    var pagina3 = document.getElementById("setaLateral2");
+    const pagina3 = document.getElementById("setaLateral2");
     pagina3.scrollIntoView();
 }
 function rolarPagina1(){
-    var pagina1 = document.getElementById("menuSuperior");
+    const pagina1 = document.getElementById("menuSuperior");
     pagina1.scrollIntoView();
 }
 
 // LOGICA: REGRA PARA IR PARA A SEGUNDA PAGINA
 // deve escolher um dos modelos de organizador e clicar na 1° seta para baixo (caso não executar as duas regras, sera mantido na primeira pagina em espera)
+
+
+
+
+
+//LOGICA: ADICIONAR NOVO BLOCO COM INPUTS NO CONTEINER DA CERVEJA (html linha:123)
+
+const botaoAdd_inputsCerveja= document.getElementById ('adicionar1');
+const caixaArmazena_inputs= document.getElementById ('caixaDeInputs');
+const formulario1= document.getElementById ('blocoInput_precoProdutosCerveja');
+
+
+
+//entender o botão adicionar (executar uma função quando for clicado no botão)
+botaoAdd_inputsCerveja.addEventListener ('click', function (){
+
+//criar novos inputs
+criarInputs ();
+
+
+});
+
+function criarInputs (){
+ //1° INPUT
+  let elemento1 = document.createElement ('input');//comando criar elemento (o elemento criado vai ser um input) e vai ser colocado numa variavel
+  elemento1.setAttribute ('type', 'number'); // definir os atributos que o input vai receber, como (type) do tipo:(text, number)
+  elemento1.setAttribute ('id', 'addInput_B2');
+ //2° INPUT
+  let elemento2 = document.createElement ('input');//comando criar elemento (o elemento criado vai ser um input) e vai ser colocado numa variavel
+  elemento2.setAttribute ('type', 'text');// definir os atributos que o input vai receber, como (type) do tipo:(text, number)
+  elemento2.setAttribute ('id', 'addInput_B3');
+ //3° INPUT
+  let elemento3 = document.createElement ('input');//comando criar elemento (o elemento criado vai ser um input) e vai ser colocado numa variavel
+  elemento3.setAttribute ('type', 'number');// definir os atributos que o input vai receber, como (type) do tipo:(text, number)
+  elemento3.setAttribute ('id', 'addInput_B4');
+
+  // colocar os elementos na caixa de armazenar inputs
+  caixaArmazena_inputs.appendChild (elemento1);
+  caixaArmazena_inputs.appendChild (elemento2);
+  caixaArmazena_inputs.appendChild (elemento3);
+}
+
+
+
 
 
 

@@ -110,9 +110,3 @@ function relatorioDasCompras (){
 
 
 
-
-
-
-
-
-
